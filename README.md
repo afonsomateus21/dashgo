@@ -12,6 +12,7 @@ Este projeto foi concebido para o curso de NextJS da Rocketseat. Nele podemos vi
 - [x] Responsividade
 - [x] Validação email e senha com React Hook Form
 - [x] Visualização de gráficos com ApexCharts
+- [ ] Listagem de usuários
 
 
 # 🎨 Layout
