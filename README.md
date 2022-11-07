@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashgo
+## Exemplo de dashboard responsivo, utilizando NextJS
 
-## Getting Started
+# 💻 Sobre
+Este projeto foi concebido para o curso de NextJS da Rocketseat. Nele podemos visualizar um modelo de dashboard utilizando ChakraUI para desenvolvimento da interface e responsividade, além de validação de campos com React Hook Form e plotagem de gráficos com ApexCharts.
 
-First, run the development server:
+<h4 align="center"> 
+	🚧  Dashgo 🚀 Em construção...  🚧
+</h4>
 
+# Funcionalidades
+- [x] Responsividade
+- [x] Validação email e senha com React Hook Form
+- [x] Visualização de gráficos com ApexCharts
+
+
+# 🎨 Layout
+### Web
+<img alt="Home" src="./screenshots/github/assets/signin.png">
+<img alt="Posts" src="./screenshots/github/assets/signin_responsivo.png">
+<img alt="Post" src="./screenshots/github/assets/erro.png">
+<img alt="Post" src="./screenshots/github/assets/dashboard.png">
+<img alt="Post" src="./screenshots/github/assets/dashboard_responsivo.png">
+
+
+# Instalação
+### Pré requisitos
+Certifique-se de ter o [Node](https://nodejs.org/en/) e o [Git](https://git-scm.com) instalados, além de um gerenciador
+de pacotes como o [Yarn](https://yarnpkg.com/) ou o [NPM](https://www.npmjs.com/).
+
+### 🎨 Execução
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone o repositório
+$ git clone <https://github.com/afonsomateus21/dashgo.git> ou
+$ git clone <git@github.com:afonsomateus21/dashgo.git> se utilizar SSH
+
+# Instale as dependências
+$ npm install ou yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm dev ou yarn dev
+
+# O aplicação ficará disponível na porta:3000 - acesse <http://localhost:3000>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🛠 Tecnologias
+As seguintes tecnologias foram utilizadas na construção do projeto:
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [ChakraUI](https://chakra-ui.com/)
+- [React Hook Forms](https://react-hook-form.com/)
+- [ApexCharts](https://apexcharts.com/docs/react-charts/)
+- [Mirage](https://miragejs.com/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Autor
+Afonso Mateus<br/>
+<a href="https://www.linkedin.com/in/afonso-mateus-3a8522118/"><img src="https://img.shields.io/static/v1?label=Linkedin&labelColor=0a66c2&message=Afonso&color=0a66c2&style=flat"/></a>
+<img src="https://img.shields.io/static/v1?label=Gmail&labelColor=db4a39&message=afonsomateus.dev@gmail.com&color=db4a39&style=flat"/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Licença
+Este projeto está sob a licença [MIT](https://github.com/afonsomateus21/dashgo/blob/main/LICENSE)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feito com ❤️ por Afonso Mateus 👋 [Entre em contato!](https://www.linkedin.com/in/afonso-mateus-3a8522118/)
